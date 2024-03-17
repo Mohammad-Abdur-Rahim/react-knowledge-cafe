@@ -13,8 +13,11 @@ useEffect(()=>{
 
 
     return (
-        <div>
-         
+        <div className="w-2/3">
+         <h1 className="text-3xl">Blogs : {blogs.length}</h1>
+         {
+            blogs.map
+         }
         </div>
     );
 };
