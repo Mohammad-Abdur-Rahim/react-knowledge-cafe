@@ -20,7 +20,8 @@ const handleAddToBookMark=(blog)=>{
 <div className='md:flex'>
 <Blogs handleAddToBookMark={handleAddToBookMark}></Blogs>
 
-<Bookmark></Bookmark>
+<Bookmark bookMark={bookMark}></Bookmark>
+
 </div>
 </div>
     
