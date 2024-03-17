@@ -1,6 +1,7 @@
 
 import './App.css'
 import Header from './component/Header/Header'
+import Blogs from './component/Blog/Blogs'
 function App() {
 
 
@@ -8,6 +9,7 @@ function App() {
     <>
       
 <Header></Header>
+<Blogs></Blogs>
     
     </>
   )
