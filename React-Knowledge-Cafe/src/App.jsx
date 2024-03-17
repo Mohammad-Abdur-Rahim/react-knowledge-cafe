@@ -6,6 +6,9 @@ import Bookmark from './component/Bookmark/Bookmark'
 import { useState } from 'react'
 function App() {
 const [bookMark,setBookMark]=useState([]);
+const handleAddToBookMark=(blog)=>{
+  console.log("add item ")
+}
 
   return (
  
@@ -13,7 +16,7 @@ const [bookMark,setBookMark]=useState([]);
 <div className='max-w-screen-2xl mx-auto'>
 <Header></Header>
 <div className='md:flex'>
-<Blogs></Blogs>
+<Blogs handleAddToBookMark={handleAddToBookMark}></Blogs>
 
 <Bookmark></Bookmark>
 </div>

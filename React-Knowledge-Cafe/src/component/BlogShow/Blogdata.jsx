@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; // ES6
 import { BsBookmarkCheckFill } from "react-icons/bs";
-const Blogdata = ({ blogData }) => {
+const Blogdata = ({ blogData,handleAddToBookMark }) => {
     const { title, cover, author_img, posted_date, reading_time, hashtag } = blogData;
 
     return (
@@ -16,7 +16,7 @@ const Blogdata = ({ blogData }) => {
                 </div>
                 <div>
                     <span className='text-2xl'>{reading_time}Min Read</span>
-                    <button className='ml-2 text-2xl'><BsBookmarkCheckFill /></button>
+                    <button onClick={handleAddToBookMark} className='ml-2 text-2xl'><BsBookmarkCheckFill /></button>
                 </div>
             </div>
             <h2 className="text-5xl mb-4">{title}</h2>
