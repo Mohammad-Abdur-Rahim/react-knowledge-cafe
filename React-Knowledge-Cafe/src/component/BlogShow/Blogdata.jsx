@@ -4,7 +4,7 @@ const Blogdata = ({ blogData }) => {
 
     return (
         <div>
-            <img src={cover} alt={`Cover Picture The Title ${title}`} />
+            <img className='w-3/4' src={cover} alt={`Cover Picture The Title ${title}`} />
             <div className='flex justify-between'>
                 <div className='flex'>
                     <img className='w-52' src={author_img} alt="" />
@@ -20,7 +20,7 @@ const Blogdata = ({ blogData }) => {
             <h2 className="text-5xl">{title}</h2>
             <p className='text-2xl'>
                 {
-                    hashtag.map(count=><span><a href='#'>#{count}</a></span>)
+                    hashtag.map((count,idx)=><span key={idx}><a href='#'>#{count}</a></span>)
                 }
             </p>
         </div>
