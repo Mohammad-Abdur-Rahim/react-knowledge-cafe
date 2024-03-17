@@ -1,9 +1,8 @@
 
-
 const Header = () => {
     return (
         <div>
-                  <h1 className='text-6xl text-center bg-red-300'>Knowledge Cafe React project</h1>
+            <h1 className="text-6xl bg-red-500 text-center">Knowledge cafe React Project</h1>
         </div>
     );
 };

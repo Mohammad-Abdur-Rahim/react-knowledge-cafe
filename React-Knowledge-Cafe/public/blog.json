@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/BKNssFs/online-blog.jpg",
+      "title": "The Mystery of the Lost Artifact",
+      "author_img": "https://i.ibb.co/KV7ZGFN/daniel-waisberg.png",
+      "posted_date": "2024-03-15",
+      "reading_time": 45,
+      "hashtag": ["mystery", "adventure", "archaeology"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/BKNssFs/online-blog.jpg",
+      "title": "Space Explorers: The Journey Beyond",
+      "author_img": "https://i.ibb.co/KV7ZGFN/daniel-waisberg.png",
+      "posted_date": "2024-03-16",
+      "reading_time": 60,
+      "hashtag": ["space", "exploration", "science-fiction"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/BKNssFs/online-blog.jpg",
+      "title": "Cooking Adventures: From Kitchen to Table",
+      "author_img": "https://i.ibb.co/KV7ZGFN/daniel-waisberg.png",
+      "posted_date": "2024-03-14",
+      "reading_time": 30,
+      "hashtag": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/BKNssFs/online-blog.jpg",
+      "title": "The Art of Mindfulness: Finding Inner Peace",
+      "author_img": "https://i.ibb.co/KV7ZGFN/daniel-waisberg.png",
+      "posted_date": "2024-03-13",
+      "reading_time": 20,
+      "hashtag": ["mindfulness", "meditation", "self-care"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/BKNssFs/online-blog.jpg",
+      "title": "Digital Nomad: Embracing a Location-Independent Lifestyle",
+      "author_img": "https://i.ibb.co/KV7ZGFN/daniel-waisberg.png",
+      "posted_date": "2024-03-12",
+      "reading_time": 40,
+      "hashtag": ["digitalnomad", "travel", "freelancing"]
+    }
+  ]
+  
