@@ -6,6 +6,7 @@ import Bookmark from './component/Bookmark/Bookmark'
 import { useState } from 'react'
 function App() {
 const [bookMark,setBookMark]=useState([]);
+const [reading,setReading]=useState(0);
 
 const handleAddToBookMark=(blog)=>{
  const newBookMark=[...bookMark,blog];
