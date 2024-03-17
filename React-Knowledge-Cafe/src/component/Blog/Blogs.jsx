@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect } from "react";
 import { useState } from "react";
 import Blogdata from "../BlogShow/Blogdata";
@@ -21,11 +22,15 @@ useEffect(()=>{
                 key={Blogdata.id} 
                 blogData={count}
                 handleAddToBookMark={handleAddToBookMark}>
-                    
+
                 </Blogdata>)
          }
         </div>
     );
 };
+Blogs.propTypes = {
+    handleAddToBookMark:PropTypes.func
+    
+}
 
 export default Blogs;

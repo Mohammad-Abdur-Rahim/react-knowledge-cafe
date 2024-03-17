@@ -7,7 +7,7 @@ import { useState } from 'react'
 function App() {
 const [bookMark,setBookMark]=useState([]);
 const handleAddToBookMark=(blog)=>{
-  console.log("add item ")
+  console.log(blog)
 }
 
   return (
